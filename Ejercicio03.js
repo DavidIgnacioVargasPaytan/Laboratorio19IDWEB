@@ -1,5 +1,5 @@
 async function obtenerNombrePorID() {
-  const id = prompt("Ingresa el ID del Pokémon (ej: 1 para Bulbasaur):");
+  const id = prompt("Ingresa el ID del Pokémon:");
   if (!id) {
     console.log("Operación cancelada o ID no ingresado.");
     return;
